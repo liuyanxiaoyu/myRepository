@@ -1,0 +1,1180 @@
+{
+  "专利": {
+    "location": "第六节 业务和技术，五、发行人主要固定资产和无形资产情况，（二）主要无形资产情况",
+    "chapter": "6-5-2",
+    "content_from": "专利-专利类型",
+    "model": "patentParper",
+    "text_keywords": {
+      "专利类型": {
+        "extract_regExp": [
+          ""
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "专利名称": {
+        "extract_regExp": [
+          ""
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "专利号": {
+        "extract_regExp": [
+          ""
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "专利权人": {
+        "extract_regExp": [
+          ""
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "取得成本": {
+        "extract_regExp": [
+          ""
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "最近一期末账面价值": {
+        "extract_regExp": [
+          ""
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "取得日期": {
+        "extract_regExp": [
+          ""
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "使用期限": {
+        "extract_regExp": [
+          ""
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "是否存在权属纠纷": {
+        "extract_regExp": [
+          ""
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      }
+    },
+    "table_keywords": {
+      "专利类型": {
+        "join": false,
+        "th_regExp": [
+          "(专利)?类(型|别)"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "专利名称": {
+        "join": false,
+        "th_regExp": [
+          "专利名称"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "专利号": {
+        "join": false,
+        "th_regExp": [
+          "专利号"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "专利权人": {
+        "join": false,
+        "th_regExp": [
+          "专利权人"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "取得成本": {
+        "join": false,
+        "th_regExp": [
+          "取得成本"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "最近一期末账面价值": {
+        "join": false,
+        "th_regExp": [
+          "最近一期末账面价值"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "取得日期": {
+        "join": false,
+        "th_regExp": [
+          "取得日期|授权公告日|申请日[期]?"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "使用期限": {
+        "join": false,
+        "th_regExp": [
+          "(使用)?期限"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "是否存在权属纠纷": {
+        "join": false,
+        "th_regExp": [
+          "权属纠纷"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      }
+    }
+  },
+  "募集资金与运用": {
+    "location": "第十三节 募集资金运用，一、本次募集资金运用概况，（一）本次募集资金概况",
+    "chapter": "13-1",
+    "content_from": "募集资金与运用-募集资金投资额",
+    "model": "fundraisingParper",
+    "text_keywords": {
+      "货币单位": {
+        "extract_regExp": [
+          ""
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "项目名称": {
+        "extract_regExp": [
+          ""
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "投资总额": {
+        "extract_regExp": [
+          ""
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "募集资金投资额": {
+        "extract_regExp": [
+          ""
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "募集资金投向": {
+        "extract_regExp": [
+          ""
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      }
+    },
+    "table_keywords": {
+      "货币单位": {
+        "join": false,
+        "th_regExp": [
+          "单位：|额（[^，；：。]*）"
+        ],
+        "extract_regExp": [
+          "(?<=单位：)[^，；：。]*(元|美金|英镑|法郎|卢布)"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "项目名称": {
+        "join": false,
+        "th_regExp": [
+          "项目名称"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "投资总额": {
+        "join": false,
+        "th_regExp": [
+          "投资总额"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "募集资金投资额": {
+        "join": false,
+        "th_regExp": [
+          "募集资金(投资)?额"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "募集资金投向": {
+        "join": false,
+        "th_regExp": [
+          "募集资金投向"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      }
+    }
+  },
+  "释义": {
+    "location": "释义",
+    "chapter": "1",
+    "content_from": "释义-全称",
+    "model": "paraphraseParper",
+    "text_keywords": {
+      "简称": {
+        "extract_regExp": [
+          "简称"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "全称": {
+        "extract_regExp": [
+          "全称"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      }
+    },
+    "table_keywords": {
+      "简称": {
+        "join": false,
+        "th_regExp": [
+          ".*"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "全称": {
+        "join": false,
+        "th_regExp": [
+          ".*"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      }
+    }
+  },
+  "发行人所处行业": {
+    "location": "第六节 业务和技术，二、行业基本情况，（一）所属行业概况",
+    "chapter": "6-2",
+    "content_from": "发行人所处行业-行业分类标准",
+    "model": "industryParper",
+    "text_keywords": {
+      "行业分类标准": {
+        "extract_regExp": [
+          "《[^，；：。]*》(（[^，；：。]*）)?"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "行业分类代码": {
+        "extract_regExp": [
+          "(?<=(行业(分类)?代码[为：]?))[\\d\\w]*|(?<=业（)[\\d\\w]*(?=(）”(子类)?))"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "行业分类名称": {
+        "extract_regExp": [
+          "(?<=(所[属|处]?(行业|产业)(为|属于)?“))[^，；：。”]*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      }
+    },
+    "table_keywords": {
+      "行业分类标准": {
+        "join": false,
+        "th_regExp": [
+          ".*"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "行业分类代码": {
+        "join": false,
+        "th_regExp": [
+          ".*"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "行业分类名称": {
+        "join": false,
+        "th_regExp": [
+          ".*"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      }
+    }
+  },
+  "发行人基本情况": {
+    "location": "第二节 概览、一、发行人简介，（一）发行人基本情况（第五节 发行人基本情况，一、基本情况）",
+    "chapter": ["2-1-1","5-1"],
+    "content_from": "发行人基本情况-注册地址",
+    "model": "issuerParper",
+    "text_keywords": {
+      "公司名称": {
+        "extract_regExp": [
+          "(?<=(中文名称：))[^，；：。]*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "法定代表人姓名": {
+        "extract_regExp": [
+          "(?<=(法定代表人：))[^，；：。]*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "统一社会信用代码": {
+        "extract_regExp": [
+          "(?<=(统一社会信用代码：))[^，；：。]*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "组织机构代码": {
+        "extract_regExp": [
+          "(?<=(组织机构代码：))[^，；：。]*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "成立日期": {
+        "extract_regExp": [
+          "(?<=(成立日期：|设立日期：))[^，；：。（）]*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "注册资本": {
+        "extract_regExp": [
+          "(?<=(注册资本：))[^，；：。]*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "注册地址": {
+        "extract_regExp": [
+          "(?<=(注册地址：))[^，；：。]*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "办公地址": {
+        "extract_regExp": [
+          "(?<=(办公地址：))[^，；：。]*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "电话": {
+        "extract_regExp": [
+          "(?<=(电话：))[^，；：。]*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "传真号码": {
+        "extract_regExp": [
+          "(?<=(传真号码：))[^，；：。]*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "电子邮箱": {
+        "extract_regExp": [
+          "(?<=(电子邮箱：))[^，；：。]*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "邮政编码": {
+        "extract_regExp": [
+          "(?<=(邮政编码：))[^，；：。]*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      }
+    },
+    "table_keywords": {
+      "公司名称": {
+        "join": false,
+        "th_regExp": [
+          "(中文|公司)名称"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "法定代表人姓名": {
+        "join": false,
+        "th_regExp": [
+          "法定代表人"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "统一社会信用代码": {
+        "join": false,
+        "th_regExp": [
+          "统一社会信用代码"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "组织机构代码": {
+        "join": false,
+        "th_regExp": [
+          "组织机构代码"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "成立日期": {
+        "join": false,
+        "th_regExp": [
+          "(成立|设立)日期"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "注册资本": {
+        "join": false,
+        "th_regExp": [
+          "注册资本"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "注册地址": {
+        "join": false,
+        "th_regExp": [
+          "注册地址|住所"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "办公地址": {
+        "join": false,
+        "th_regExp": [
+          "办公地址"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "电话": {
+        "join": false,
+        "th_regExp": [
+          "(联系)?电话[号码]*"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "传真号码": {
+        "join": false,
+        "th_regExp": [
+          "传真[号码]*"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "电子邮箱": {
+        "join": false,
+        "th_regExp": [
+          "电子[邮|信]{1}箱"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "邮政编码": {
+        "join": false,
+        "th_regExp": [
+          "邮政编码"
+        ],
+        "extract_regExp": [
+          ".*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      }
+    }
+  },
+  "董事基本情况": {
+    "location": "第八节 董事、监事、高级管理人员与核心技术人员，一、董事、监事、高级管理人员与核心技术人员简介，（一）董事会成员简介",
+    "chapter": "8-1-1",
+    "content_from":"董事基本情况-姓名",
+    "model": "PeopleParper",
+    "text_keywords": {
+      "姓名": {
+        "extract_regExp": ["(?<=[0-9：、])?[^，；：、]*(?=((先生|女士)?[，：]))"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "国籍": {
+        "extract_regExp": ["(?<=[，；：])[^，；：]*?(?=国籍)|(?<=国籍)[^，；：]*?(?<=[，；：])"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "境外居留权": {
+        "extract_regExp": ["(?<=[，；：])[^，；：]*?(?=永久境外居留权)|(?<=[，；：])[^，；：]*?(?=境外永久居留权)|(?<=[，；：])[^，；：]*?(?=境外居留权)"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "性别": {
+        "extract_regExp": ["男|女|先生|女士"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "出生年月": {
+        "extract_regExp": ["(?<=[，；：。])[^，；：。]*?(?=[出]?生)|(?<=出生日期)[^，；：。]*?(?<=[，；：。])|(?<=[，；：。])[^，；：。]*?岁"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "学历": {
+        "extract_regExp": ["(?<=[，；：])[^，；：。]*?(?=学历)|(?<=学历)[^，；：。]*?(?<=[，；：])|(?<=[，；：])(博士(研究生)?|硕士(研究生)?|(大学)?本科|大本|(大学)?专科|大专|中专|高中|初中|小学)(?=[，；：。])"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "职称": {
+        "extract_regExp": ["(?<=[，；：。])[^，；：。]*?(?=职称)|(?<=职称)[^，；：。]*?(?<=[，；：。])|(?<=[，；：。])[^，；：、。总]{0,5}?(工程师|研究员|技术员|实验师)"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "现任职务": {
+        "extract_regExp": ["(?<=(至今，任[职]?[本]?公司))[^，；。]*"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "起始日期": {
+        "extract_regExp": ["(?<=[，；：。])[^，；：。]*?(?=(至今，任[职]?[本]?公司))"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "终止日期": {
+        "extract_regExp": ["至今"],
+        "clean_regExp": [],
+        "check_regExp": []
+      }
+    },
+    "table_keywords": {
+      "姓名": {
+        "join": false,
+        "th_regExp":["姓名"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "国籍": {
+        "join": false,
+        "th_regExp":["国籍"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "境外居留权": {
+        "join": false,
+        "th_regExp":["境外居留权"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "性别": {
+        "join": false,
+        "th_regExp":["性别"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "出生年月": {
+        "join": false,
+        "th_regExp":["出生年月"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "学历": {
+        "join": false,
+        "th_regExp":["学历"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "职称": {
+        "join": false,
+        "th_regExp":["职称"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "现任职务": {
+        "join": true,
+        "th_regExp":["职位", "职务"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "起始日期": {
+        "join": false,
+        "th_regExp":["任期","任职期间"],
+        "extract_regExp": ["(\\d{2,4}[年.-/]\\d{1,2}[月.-/]\\d{1,2}[日]?)(?=[至|到|-])"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "终止日期": {
+        "join": false,
+        "th_regExp":["任期","任职期间"],
+        "extract_regExp": ["(?<=[至|到|-])(\\d{2,4}[年.-/]\\d{1,2}[月.-/]\\d{1,2}[日]?)"],
+        "clean_regExp": [],
+        "check_regExp": []
+      }
+    }
+  },
+  "监事基本情况": {
+    "location": "第八节 董事、监事、高级管理人员与核心技术人员，一、董事、监事、高级管理人员与核心技术人员简介，（二）监事会成员简介",
+    "chapter": "8-1-2",
+    "content_from":"监事基本情况-姓名",
+    "model": "PeopleParper",
+    "text_keywords": {
+      "姓名": {
+        "extract_regExp": ["(?<=[0-9：、])?[^，；：、]*(?=((先生|女士)?[，：]))"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "国籍": {
+        "extract_regExp": ["(?<=[，；：])[^，；：]*?(?=国籍)|(?<=国籍)[^，；：]*?(?<=[，；：])"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "境外居留权": {
+        "extract_regExp": ["(?<=[，；：])[^，；：]*?(?=永久境外居留权)|(?<=[，；：])[^，；：]*?(?=境外永久居留权)|(?<=[，；：])[^，；：]*?(?=境外居留权)"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "性别": {
+        "extract_regExp": ["男|女|先生|女士"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "出生年月": {
+        "extract_regExp": ["(?<=[，；：])[^，；：]*?(?=[出]?生)|(?<=出生日期)[^，；：]*?(?<=[，；：])|(?<=[，；：])[^，；：]*?岁"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "学历": {
+        "extract_regExp": ["(?<=[，；：])[^，；：。]*?(?=学历)|(?<=学历)[^，；：。]*?(?<=[，；：])|(?<=[，；：])(博士(研究生)?|硕士(研究生)?|(大学)?本科|大本|(大学)?专科|大专|中专|高中|初中|小学)(?=[，；：。])"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "职称": {
+        "extract_regExp": ["(?<=[，；：])[^，；：]*?(?=职称)|(?<=职称)[^，；：]*?(?<=[，；：])|(?<=[，；：])[^，；：、总]{0,5}?(工程师|研究员|技术员|实验师)"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "现任职务": {
+        "extract_regExp": ["(?<=(至今，任[职]?[本]?公司))[^，；。]*"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "起始日期": {
+        "extract_regExp": ["(?<=[，；：。])[^，；：。]*?(?=(至今，任[职]?[本]?公司))"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "终止日期": {
+        "extract_regExp": ["至今"],
+        "clean_regExp": [],
+        "check_regExp": []
+      }
+    },
+    "table_keywords": {
+      "姓名": {
+        "join": false,
+        "th_regExp":["姓名"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "国籍": {
+        "join": false,
+        "th_regExp":["国籍"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "境外居留权": {
+        "join": false,
+        "th_regExp":["境外居留权"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "性别": {
+        "join": false,
+        "th_regExp":["性别"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "出生年月": {
+        "join": false,
+        "th_regExp":["出生年月"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "学历": {
+        "join": false,
+        "th_regExp":["学历"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "职称": {
+        "join": false,
+        "th_regExp":["职称"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "现任职务": {
+        "join": true,
+        "th_regExp":["职位", "职务"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "起始日期": {
+        "join": false,
+        "th_regExp":["任期","任职期间"],
+        "extract_regExp": ["(\\d{2,4}[年.-/]\\d{1,2}[月.-/]\\d{1,2}[日]?)(?=[至|到|-])"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "终止日期": {
+        "join": false,
+        "th_regExp":["任期","任职期间"],
+        "extract_regExp": ["(?<=[至|到|-])(\\d{2,4}[年.-/]\\d{1,2}[月.-/]\\d{1,2}[日]?)"],
+        "clean_regExp": [],
+        "check_regExp": []
+      }
+    }
+  },
+  "高管基本情况": {
+    "location": "第八节 董事、监事、高级管理人员与核心技术人员，一、董事、监事、高级管理人员与核心技术人员简介，（三）高级管理人员简介",
+    "chapter": "8-1-3",
+    "content_from":"高管基本情况-姓名",
+    "model": "PeopleParper",
+    "text_keywords": {
+      "姓名": {
+        "extract_regExp": ["(?<=[0-9：、])?[^，；：、]*(?=((先生|女士)?[，：]))"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "国籍": {
+        "extract_regExp": ["(?<=[，；：])[^，；：]*?(?=国籍)|(?<=国籍)[^，；：]*?(?<=[，；：])"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "境外居留权": {
+        "extract_regExp": ["(?<=[，；：])[^，；：]*?(?=永久境外居留权)|(?<=[，；：])[^，；：]*?(?=境外永久居留权)|(?<=[，；：])[^，；：]*?(?=境外居留权)"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "性别": {
+        "extract_regExp": ["男|女|先生|女士"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "出生年月": {
+        "extract_regExp": ["(?<=[，；：])[^，；：]*?(?=[出]?生)|(?<=出生日期)[^，；：]*?(?<=[，；：])|(?<=[，；：])[^，；：]*?岁"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "学历": {
+        "extract_regExp": ["(?<=[，；：])[^，；：。]*?(?=学历)|(?<=学历)[^，；：。]*?(?<=[，；：])|(?<=[，；：])(博士(研究生)?|硕士(研究生)?|(大学)?本科|大本|(大学)?专科|大专|中专|高中|初中|小学)(?=[，；：。])"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "职称": {
+        "extract_regExp": ["(?<=[，；：])[^，；：]*?(?=职称)|(?<=职称)[^，；：]*?(?<=[，；：])|(?<=[，；：])[^，；：、总]{0,5}?(工程师|研究员|技术员|实验师)"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "现任职务": {
+        "extract_regExp": ["(?<=(至今，任[职]?[本]?公司))[^，；。]*"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "起始日期": {
+        "extract_regExp": ["(?<=[，；：。])[^，；：。]*?(?=(至今，任[职]?[本]?公司))"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "终止日期": {
+        "extract_regExp": ["至今"],
+        "clean_regExp": [],
+        "check_regExp": []
+      }
+    },
+    "table_keywords": {
+      "姓名": {
+        "join": false,
+        "th_regExp":["姓名"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "国籍": {
+        "join": false,
+        "th_regExp":["国籍"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "境外居留权": {
+        "join": false,
+        "th_regExp":["境外居留权"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "性别": {
+        "join": false,
+        "th_regExp":["性别"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "出生年月": {
+        "join": false,
+        "th_regExp":["出生年月"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "学历": {
+        "join": false,
+        "th_regExp":["学历"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "职称": {
+        "join": false,
+        "th_regExp":["职称"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "现任职务": {
+        "join": true,
+        "th_regExp":["职位", "职务"],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "起始日期": {
+        "join": false,
+        "th_regExp":["任期","任职期间"],
+        "extract_regExp": ["(\\d{2,4}[年.-/]\\d{1,2}[月.-/]\\d{1,2}[日]?)(?=[至|到|-])"],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "终止日期": {
+        "join": false,
+        "th_regExp":["任期","任职期间"],
+        "extract_regExp": ["(?<=[至|到|-])(\\d{2,4}[年.-/]\\d{1,2}[月.-/]\\d{1,2}[日]?)"],
+        "clean_regExp": [],
+        "check_regExp": []
+      }
+    }
+  },
+  "核心技术人员基本情况": {
+    "location": "第八节 董事、监事、高级管理人员与核心技术人员，一、董事、监事、高级管理人员与核心技术人员简介，（四）核心技术人员简介",
+    "chapter": "8-1-4",
+    "content_from": "核心技术人员基本情况-姓名",
+    "model": "PeopleParper",
+    "text_keywords": {
+      "姓名": {
+        "extract_regExp": [
+          "(?<=[0-9：、])?[^，；：、]*(?=((先生|女士)?[，：]))"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "国籍": {
+        "extract_regExp": [
+          "(?<=[，；：])[^，；：]*?(?=国籍)|(?<=国籍)[^，；：]*?(?<=[，；：])"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "境外居留权": {
+        "extract_regExp": [
+          "(?<=[，；：])[^，；：]*?(?=永久境外居留权)|(?<=[，；：])[^，；：]*?(?=境外永久居留权)|(?<=[，；：])[^，；：]*?(?=境外居留权)"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "性别": {
+        "extract_regExp": [
+          "男|女|先生|女士"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "出生年月": {
+        "extract_regExp": [
+          "(?<=[，；：])[^，；：]*?(?=[出]?生)|(?<=出生日期)[^，；：]*?(?<=[，；：])|(?<=[，；：])[^，；：]*?岁"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "学历": {
+        "extract_regExp": [
+          "(?<=[，；：])[^，；：。]*?(?=学历)|(?<=学历)[^，；：。]*?(?<=[，；：])|(?<=[，；：])(博士(研究生)?|硕士(研究生)?|(大学)?本科|大本|(大学)?专科|大专|中专|高中|初中|小学)(?=[，；：。])"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "职称": {
+        "extract_regExp": [
+          "(?<=[，；：])[^，；：]*?(?=职称)|(?<=职称)[^，；：]*?(?<=[，；：])|(?<=[，；：])[^，；：、总]{0,5}?(工程师|研究员|技术员|实验师)"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "现任职务": {
+        "extract_regExp": [
+          "(?<=(至今，任[职]?[本]?公司))[^，；。]*"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "起始日期": {
+        "extract_regExp": [
+          "(?<=[，；：。])[^，；：。]*?(?=(至今，任[职]?[本]?公司))"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "终止日期": {
+        "extract_regExp": [
+          "至今"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      }
+    },
+    "table_keywords": {
+      "姓名": {
+        "join": false,
+        "th_regExp": [
+          "姓名"
+        ],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "国籍": {
+        "join": false,
+        "th_regExp": [
+          "国籍"
+        ],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "境外居留权": {
+        "join": false,
+        "th_regExp": [
+          "境外居留权"
+        ],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "性别": {
+        "join": false,
+        "th_regExp": [
+          "性别"
+        ],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "出生年月": {
+        "join": false,
+        "th_regExp": [
+          "出生年月"
+        ],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "学历": {
+        "join": false,
+        "th_regExp": [
+          "学历"
+        ],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "职称": {
+        "join": false,
+        "th_regExp": [
+          "职称"
+        ],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "现任职务": {
+        "join": true,
+        "th_regExp": [
+          "职位",
+          "职务"
+        ],
+        "extract_regExp": [],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "起始日期": {
+        "join": false,
+        "th_regExp": [
+          "任期",
+          "任职期间"
+        ],
+        "extract_regExp": [
+          "(\\d{2,4}[年.-/]\\d{1,2}[月.-/]\\d{1,2}[日]?)(?=[至|到|-])"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      },
+      "终止日期": {
+        "join": false,
+        "th_regExp": [
+          "任期",
+          "任职期间"
+        ],
+        "extract_regExp": [
+          "(?<=[至|到|-])(\\d{2,4}[年.-/]\\d{1,2}[月.-/]\\d{1,2}[日]?)"
+        ],
+        "clean_regExp": [],
+        "check_regExp": []
+      }
+    }
+  }
+}
